@@ -45,3 +45,12 @@ This script is ideal for anyone looking to automate content summarization and ca
 4. **Generate Token:** Run the script locally to generate a `token.json` file.
 5. **Setup Google Sheet:** Replace the `spreadsheet_id` placeholder in the script with your spreadsheet ID.
 6. **Run the Script:** Execute the script to process the URLs listed in your Google Sheet.
+
+### Considerations
+
+- **Alternative APIs:** While this script uses the Hugging Face `t5-small` model for summarization, integrating the ChatGPT API is a straightforward alternative if you prefer using OpenAI's technology. ChatGPT provides robust conversational and summarization capabilities.
+
+- **Automation:** Consider using tools like Zapier or Buildship for enhanced automation. These platforms can automate adding URLs to your Google Sheet and running the summarization script, streamlining your workflow and saving time. You can set up batch processing to handle multiple URLs efficiently.
+
+I chose this setup as it was more cost-effective for the value, and the need for automation on these readings didn't fit my needs. Feel free to integrate these solutions based on your specific needs and preferences.
+
