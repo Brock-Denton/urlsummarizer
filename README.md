@@ -37,5 +37,7 @@ This script is ideal for anyone looking to automate content summarization and ca
 
 1. **Clone the Repository:** clone from GitHub.
 2. **Install Dependencies:** `pip` install the required libraries.
-3. **Configure Google API:** Enable the Google Sheets API, download the credentials, and place them in the project directory.
-4. **Run the Script:** Execute the script to process the URLs listed in your Google Sheet.
+3. **Configure Google API:** Enable the Google Sheets API, download the credentials, and save them in a file named `credentials.json`.
+4. **Generate Token:** Run the script locally to generate a `token.json` file.
+5. **Setup Google Sheet:** Replace the `spreadsheet_id` placeholder in the script with your spreadsheet ID.
+6. **Run the Script:** Execute the script to process the URLs listed in your Google Sheet.
