@@ -1,6 +1,8 @@
 # urlsummarizer
 Automates the process of fetching, summarizing, and categorizing content from a list of URLs
 
+![overview](https://github.com/Brock-Denton/urlsummarizer/blob/main/url.png)
+
 ### Description
 
 It uses a pre-trained transformer model from the Hugging Face library to summarize articles, dynamically categorizes articles based on predefined keywords, and stores the summarized content and its category in a Google Sheet for easy access and organization.
