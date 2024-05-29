@@ -1,4 +1,4 @@
-# urlsummarizer:
+# urlsummarizer
 Automates fetching, summarizing, and categorizing content from a list of URLs. 
 
 Have too many interesting articles to read? Copy and paste the URL into a Google Sheet to get a convenient summary, helping you decide if you want to dive deeper into the content.
