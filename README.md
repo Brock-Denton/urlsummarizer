@@ -1,5 +1,7 @@
 # urlsummarizer
-Automates the process of fetching, summarizing, and categorizing content from a list of URLs
+Automates fetching, summarizing, and categorizing content from a list of URLs. 
+
+There are too many click-bait articles. Copy and paste the URL into a Google sheet to get a convenient summary to see if you want to read more. 
 
 ![overview](https://github.com/Brock-Denton/urlsummarizer/blob/main/url.png)
 
