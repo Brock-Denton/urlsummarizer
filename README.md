@@ -1,11 +1,11 @@
-# urlsummarizer
+# urlsummarizer:
 Automates fetching, summarizing, and categorizing content from a list of URLs. 
 
 Have too many interesting articles to read? Copy and paste the URL into a Google Sheet to get a convenient summary, helping you decide if you want to dive deeper into the content.
 
 ![overview](https://github.com/Brock-Denton/urlsummarizer/blob/main/url.png)
 
-### Description
+### Description:
 
 It uses a pre-trained transformer model from the Hugging Face library to summarize articles, dynamically categorizes articles based on predefined keywords, and stores the summarized content and its category in a Google Sheet for easy access and organization.
 
@@ -24,7 +24,7 @@ The use of a pre-trained transformer model, such as `t5-small`, provides several
 - **Quality:** These models are trained on extensive datasets, allowing them to generate high-quality summaries that capture the essence of the original content.
 - **Versatility:** The model can handle diverse topics, making it suitable for various articles and documents.
 
-### Comparison to ChatGPT
+### Comparison to ChatGPT:
 
 While ChatGPT and the `t5-small` model both belong to the family of transformer models developed by OpenAI and Hugging Face, respectively, they serve slightly different purposes:
 
@@ -46,7 +46,7 @@ This script is ideal for anyone looking to automate content summarization and ca
 5. **Setup Google Sheet:** Replace the `spreadsheet_id` placeholder in the script with your spreadsheet ID.
 6. **Run the Script:** Execute the script to process the URLs listed in your Google Sheet.
 
-### Considerations
+### Considerations:
 
 - **Alternative APIs:** While this script uses the Hugging Face `t5-small` model for summarization, integrating the ChatGPT API is a straightforward alternative if you prefer using OpenAI's technology. ChatGPT provides robust conversational and summarization capabilities.
 
