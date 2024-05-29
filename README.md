@@ -32,3 +32,10 @@ While ChatGPT and the `t5-small` model both belong to the family of transformer 
 Add URLs to the first column of your Google Sheet, run the script, and watch as it fetches, summarizes, categorizes, and updates the sheet with the processed data.
 
 This script is ideal for anyone looking to automate content summarization and categorization tasks, making managing large amounts of information from various sources easier. Its use of a pre-trained transformer model ensures high-quality summaries, making it a powerful tool for information management and analysis. Prospective employers will appreciate the integration of advanced machine learning techniques and practical application in a real-world scenario.
+
+### Setup Instructions:
+
+1. **Clone the Repository:** clone from GitHub.
+2. **Install Dependencies:** `pip` install the required libraries.
+3. **Configure Google API:** Enable the Google Sheets API, download the credentials, and place them in the project directory.
+4. **Run the Script:** Execute the script to process the URLs listed in your Google Sheet.
